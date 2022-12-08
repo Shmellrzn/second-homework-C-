@@ -28,7 +28,7 @@ Console.WriteLine($"Второй цифрой числа {num} является 
 
 32679 -> 6*/
 
-Console.WriteLine("Введите число: ");
+/*Console.WriteLine("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 string numStr = Convert.ToString(num);
 num = numStr.Length;
@@ -37,9 +37,18 @@ num = numStr.Length;
 
         else Console.WriteLine("число состоит из 2х цифр");
     }
-
+*/
 /*Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
 6 -> да
 7 -> да
 1 -> нет*/
+
+Console.WriteLine("Введите число, соответствующее дню недели: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+    if 
+    (num == 6 || num == 7) Console.WriteLine("Выходной");
+   
+    else
+        Console.WriteLine("Рабочий");
